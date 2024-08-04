@@ -39,7 +39,7 @@ WIDTH=40
 CHOICE_HEIGHT=4
 BACKTITLE="B站JE"
 TITLE="安装/启动服务器"
-MENU="请选择要执行的操作"
+MENU="关正版验证需要关并启动两次服务器"
  
 OPTIONS=(1 "JE1.20.1 BE1.20.3X核心F"
          2 "JE1.20.2 BE1.20.5X核心F"
@@ -85,7 +85,7 @@ else
                 wget https://cdn.modrinth.com/data/wKkoqHrH/versions/sxF4OIVL/geyser-fabric-2.2.0-SNAPSHOT%2Bbuild.317.jar
                 echo "正在开始下载Fabric API"
                 wget https://cdn.modrinth.com/data/P7dR8mSH/versions/P7uGFii0/fabric-api-0.92.2%2B1.20.1.jar
-                echo "即将启动服务器，启动后出现有EULA这个单词的句子时，请手动找到服务器目录中的eula.txt文件并把里面文字修改为eula=true,然后重新启动此脚本"
+                echo "即将启动服务器"
 fi
 echo "正在验证java是否安装"
 java -version
@@ -137,7 +137,7 @@ else
                 wget https://cdn.modrinth.com/data/wKkoqHrH/versions/e8NbdxCH/geyser-fabric-2.2.0-SNAPSHOT%2Bbuild.393.jar
                 echo "正在开始下载Fabric API"
                 wget https://cdn.modrinth.com/data/P7dR8mSH/versions/8GVp7wDk/fabric-api-0.91.6%2B1.20.2.jar
-                echo "即将启动服务器，当启动后出现有EULA这个单词的句子时，请手动找到服务器目录中的eula.txt文件并把里面文字修改为eula=true,然后重新启动此脚本"
+                echo "即将启动服务器"
 fi
 echo "正在验证java是否安装"
 java -version
