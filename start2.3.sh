@@ -440,7 +440,7 @@ case $CHOICE in
 1)
 if [ -e "/root/MC/start.txt" ];then
 sed -i 's/eula=false/eula=true/g' /root/MC/eula.txt
-sed -i 's/auth-type: online/auth-type: offline/g' /root/MC/plugins/Geyser-Fabric/config.yml
+sed -i 's/auth-type: online/auth-type: offline/g' /root/MC/plugins/Geyser-Spigot/config.yml
 sed -i 's/online-mode=true/online-mode=false/g' /root/MC/server.properties
                 if [ -e "/root/MC/plugins/Geyser-Spigot.jar" ];then
                          echo "此文件已经准备好"
